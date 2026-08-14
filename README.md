@@ -172,6 +172,7 @@ Business Insights & Recommendations
 ---
 
 ```
+📁 Project Structure
 Amazon-Sales-Performance-Analysis/
 │
 ├── Artifacts/
