@@ -150,3 +150,15 @@ Amazon-Sales-Performance-Analysis/
 ├── Amazon_Sales_Analysis.pbix
 ├── README.md
 └── dashboard_screenshots/
+```
+---
+
+## 👤 Author
+
+Paras Jadhav
+
+Aspiring Data Analyst | Data Science & Analytics
+
+Skills
+
+SQL | Python | Excel | Power BI | Tableau | Data Analysis | Machine Learning
