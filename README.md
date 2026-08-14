@@ -2,9 +2,9 @@
 
 ## 📌 Project Overview
 
-This project analyzes Amazon sales data using **Power BI** to identify sales trends, product performance, customer order patterns, geographic performance, fulfilment performance, and B2B vs B2C sales distribution.
+This project analyzes Amazon sales data to identify sales trends, product performance, customer order patterns, geographic performance, fulfilment performance, and B2B vs B2C sales distribution.
 
-An interactive Power BI dashboard was developed to transform raw sales data into meaningful business insights.
+The project follows an end-to-end data analysis workflow, including **data cleaning and Exploratory Data Analysis (EDA) using Python**, followed by the development of an interactive **Power BI dashboard** to transform the data into meaningful business insights.
 
 ---
 
@@ -22,13 +22,24 @@ The objective of this project is to:
 
 ---
 
-## 🛠️ Tools & Technologies Used
+🛠️ Tools & Technologies Used  
+Python – Data cleaning and Exploratory Data Analysis  
+Jupyter Notebook – Analysis and documentation  
+Pandas – Data manipulation and cleaning  
+NumPy – Data processing  
+Matplotlib – Data visualization during EDA  
+Power BI – Dashboard development and data visualization  
+DAX – KPI and measure creation  
+GitHub – Project documentation and version control  
 
-- **Power BI** – Data analysis and dashboard development
-- **Power Query** – Data cleaning and transformation
-- **DAX** – KPI and measure creation
-- **GitHub** – Project documentation and version control
+---
+🧹 Data Cleaning & Preparation
 
+The dataset was cleaned and prepared using Python in Jupyter Notebook before being used for dashboard development.
+
+The data analysis process included data cleaning, data inspection, and Exploratory Data Analysis (EDA) to better understand the dataset and prepare it for visualization in Power BI.
+
+The cleaned dataset was then exported and used to build the Power BI dashboard.
 ---
 
 ## 📊 Key Performance Indicators (KPIs)
@@ -142,14 +153,34 @@ Based on the analysis:
 
 ---
 
-## 📁 Project Structure
+
+## 🔄 Project Workflow
 
 ```text
+Raw Amazon Sales Data
+        ↓
+Data Cleaning
+        ↓
+Exploratory Data Analysis (EDA)
+        ↓
+Cleaned Dataset
+        ↓
+Power BI Dashboard Development
+        ↓
+Business Insights & Recommendations
+```
+---
+
+```
 Amazon-Sales-Performance-Analysis/
 │
-├── Amazon_Sales_Analysis.pbix
-├── README.md
-└── dashboard_screenshots/
+├── Artifacts/
+│   └── Dashboard Screenshots
+│
+├── Analysis.ipynb
+├── amazon_sales_cleaned.xlsx
+├── Amazon Sales Analysis.pbix
+└── README.md
 ```
 ---
 
